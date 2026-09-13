@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+
+::selection {
+  background: #c9a24b;
+  color: #141216;
+}
+
+input,
+select,
+textarea {
+  font-family: "Inter", sans-serif;
+}
+
+.eyebrow {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #8c7433;
+}
